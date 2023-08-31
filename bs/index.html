@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ses Portfolio</title>
+    <!-- Import Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+
+        * {
+            background-color: white;
+        }
+    </style>
+  </head>
+    
+  <body>
+<!-- Navbar -->
+    <header>
+        <nav class="nav navbar-text text-white justify-content-end pe-5" style="background-color: #394682">
+            <a class="nav-link" href="#">HOME</a>
+            <a class="nav-link" href="#">PRODUCT</a>
+            <a class="nav-link" href="#">GALLERY</a>
+            <a class="nav-link" href="#">BLOG</a>
+            <a class="nav-link" href="#">INVENTORY</a>
+        </nav>
+    </header>
+
+    <div class="mt-5 mb-4 ms-5 me-5 shadow p-5">
+        <div class="row">
+            <div class="col-12">
+                <!-- profile -->
+                <div class="row align-items-center">
+                    <div class="col-2">
+                        <img src="img/fotoProfile.jpg" style="border-radius: 50%; width: 100%;">
+                    </div>
+                    <!-- intro -->
+                    <div class="col-4">
+                        <h1>Nama <span style="color: #0027D0;">Anda</span></h1>
+                        <p>Front End Designer</p>
+                        <br>
+                        <a href="#" class="btn text-white" role="button" style="background-color: #0027D0;">Kontak</a>
+                        <a href="#" class="btn text-dark" role="button" style="border-color: #0027D0;">Resume</a>
+                    </div>
+                    <!-- keterangan -->
+                    <div class="col-sm-3 col-xl-2 fw-bold" style="border-left: 1px solid rgb(216, 216, 216); padding-left: 2%;">
+                        <p>Availability</p>
+                        <p>Usia</p>
+                        <p>Lokasi</p>
+                        <p>Pengalaman</p>
+                        <p>Email</p>
+                    </div>
+                    <!-- status -->
+                    <div class="col-3 ps-1">
+                        <p>Full Time</p>
+                        <p>19</p>
+                        <p>Jakarta</p>
+                        <p>2</p>
+                        <p>email@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Form Control -->
+    <div class="ms-5 me-5 mb-5 shadow p-5">
+        <div class="row">
+            <div class="col-12">
+                <!-- nama -->
+                <div class="row">
+                    <div class="col-2 fw-bold">
+                        <label for="nameFC" class="form-label">Name</label>
+                    </div>
+                    <div class="col-10">
+                        <input type="text" class="form-control" id="nameFC">
+                    </div>
+                </div>
+                <br>
+                <!-- email -->
+                <div class="row">
+                    <div class="col-2 fw-bold">
+                        <label for="emailFC" class="form-label">Email</label>
+                    </div>
+                    <div class="col-10">
+                        <input type="email" class="form-control" id="emailFC" placeholder="name@gmail.com">
+                    </div>
+                </div>
+                <br>
+                <!-- tempat, tanggal lahir -->
+                <div class="row">
+                    <div class="col-2 fw-bold">
+                        <label for="ageFC" class="form-label">Tempat, Tanggal Lahir</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="text" class="form-control" id="tempat">
+                    </div>
+                    <div class="col-auto">
+                        <input type="date" class="form-control" id="age">
+                    </div>
+                </div>
+                <br>
+                <!-- role -->
+                <div class="row">
+                    <div class="col-2 fw-bold">
+                        <label for="roleFC" class="form-label">Role</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="radio" id="role1" name="role">
+                            <label for="roleFC" class="form-label">SMA/SMK</label>
+                        <input type="radio" id="role2" name="role">
+                            <label for="roleFC" class="form-label">Mahasiswa</label>
+                        <input type="radio" id="role3" name="role">
+                            <label for="roleFC" class="form-label">Fresh Graduate</label>
+                        <input type="radio" id="role4" name="role">
+                            <label for="roleFC" class="form-label">Fresh Graduate</label>
+                    </div>
+                </div>
+                <br>
+                <!-- availability -->
+                <div class="row">
+                    <div class="col-2 fw-bold">
+                        <label for="availabilityFC">Availability</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="radio" id="availability1" name="availability">
+                            <label for="availability">Full Time</label>
+                        <input type="radio" id="availability2" name="availability">
+                            <label for="availability">Part Time</label>
+                        <input type="radio" id="availability3" name="availability">
+                            <label for="availability">Internship</label>
+                    </div>
+                </div>
+                <br>
+                <!-- years experience -->
+                <div class="row">
+                    <div class="col-2 fw-bold">
+                        <label for="yearsExperienceFC">Years Experience</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="number" class="form-control" id="yearsExperience">
+                    </div>
+                    <div class="col-auto">
+                        <span id="passwordHelpInline" class="form-text">
+                            months.
+                    </div>
+                </div>
+                <br><br>
+                <div class="text-center" style="">
+                    <a href="#" class="btn btn-success">SUBMIT</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="row ms-5 me-5 mb-2 p-5">
+        <h3 class="mb-4 text-center">Collage Project</h3>
+        <div class="col-sm-6 col-xl-3">
+          <div class="card" style="width: 250px;">
+            <img src="img/project1.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title"><span style="color: #0027D0;padding-right: 5px;">Robot</span>Line Follower</h5>
+              <p class="card-text">Proyek yang melibatkan pembuatan robot yang dapat mengikuti garis yang telah ditentukan.
+              </p>
+              <a href="#" class="btn btn-primary">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-9">
+            <h5 style="color: #0027D0;">Description</h5>
+            <p>Proyek ini menggunakan driver L298N yang digunakan untuk mengontrol gerakan robot, terutama dalam hal mengatur arah putaran dan kecepatan motor. Robot ini dilengkapi dengan sensor garis yang dapat mendeteksi garis yang diletakkan di permukaan yang digunakan sebagai jalur yang harus diikuti.</p> 
+            <br>
+            <h5 style="color: #0027D0;">Tools</h5>
+            <ol>
+                <li>Mikrokontroler: Arduino Uno</li>
+                <li>Motor Driver: L298N</li>
+                <li>Sensor: HC-SR04, IR</li>
+                <li>Components: Relay, Buzzer, Battery</li>
+                <li>Chasis: Dinamo, Case, Wheels</li>
+            </ol>
+        </div>
+      </div>
+
+      <footer>
+            <div class="row text-center">
+                <div class="col-12" style="background-color: #394682;"">
+                    <p class="bg-transparent text-white">Copyright &copy;2023 by Shehnaz</p>
+                </div>
+            </div>
+      </footer>
+  
+</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>

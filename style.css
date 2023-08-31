@@ -1,0 +1,162 @@
+body {
+    background-position: center;
+    background-color: rgb(227, 241, 255);
+}
+
+*{
+    position: relative;
+    background-position: center;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+header {
+    height: 100px;
+    box-shadow: 0 2px 0 rgb(194, 194, 194);
+    background-color: ;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 10px 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-wrapper ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-wrapper ul li {
+    margin: 10px;
+}
+nav ul li:hover a{
+    color: #0027D0;
+}
+
+.nav-wrapper ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section {
+    width: 90%;
+    margin-top: 20px; 
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 1px 1px 1px 1px rgb(194, 194, 194);
+}
+
+.intro {
+    width: 80%;
+    padding: 20px 0;
+    margin: 0 2%;
+    color: black;
+    text-align: left;
+}
+.row {
+    display: flex;
+}
+.photo img {
+    border-radius: 50%;
+    width: 170px;
+}
+.profile {
+    margin-left: 2%;
+}
+.profile h1 {
+    color: black;
+    font-weight: bold;
+}
+.profile h1 span {
+    margin-left: 5px;
+    color: #0027D0;
+}
+.keterangan {
+    margin-left: 8%;
+    margin-right: 5%;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    border-left: 1px solid rgb(172, 172, 172);
+}
+
+.btn1 {
+    text-decoration: none;
+    padding: 10px 18px;
+    margin-top: 25px;
+    width: fit-content;
+    height: auto;
+    display: inline-block;
+    justify-content: center;
+    background-color: #337CCF;
+    color: white;
+    border: 2px solid #337CCF;
+    border-radius: 5px;
+}
+
+.btn2 {
+    text-decoration: none;
+    padding: 10px 18px;
+    margin-top: 25px;
+    width: fit-content;
+    height: auto;
+    display: inline-block;
+    justify-content: center;
+    background-color: white;
+    color: #337CCF;
+    border: 2px solid #337CCF;
+    border-radius: 5px;
+}
+
+form {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 1px 1px 1px 1px rgb(194, 194, 194);
+}
+
+.form-control {
+    position: relative;
+    width: 26%;
+    margin: 20px 40px;
+}
+
+.form-control label {
+    font-weight: bold;
+    position: relative;
+    bottom: 2px;
+    pointer-events: none;
+}
+
+.form-control input {
+    position: relative;
+    background-color: transparent;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 360%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+#submit {
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+}
